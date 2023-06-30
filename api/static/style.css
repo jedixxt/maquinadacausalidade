@@ -31,12 +31,13 @@
        position: absolute;
        z-index: 1;
        visibility: visible;
+       
      }
      .square3 {
        font-family: Bakso Sapi, Helvetica;
        background-color: #FBCEB1;
        font-size: 40px;
-       height: 100%;
+       height: 0;
        width: 100%;
        top: 0px;
        left: 0px;
@@ -46,7 +47,7 @@
        z-index: 1;
        visibility: hidden;
        opacity: 0;
-       transition: visibility 0s 1s, opacity 1s linear;
+       transition: heigtht 1s, linear 1s;
      }
     .moldura {
        width: 14em;
@@ -89,7 +90,7 @@
        padding: 10px;
     }
     p {
-       font-size: 1.8em;
+       font-size: 1.5em;
        line-height: normal;
        display: inline-block;
        vertical-align: middle;
@@ -102,7 +103,7 @@
        word-break: break-word;
 }
     p2 {
-       font-size: 60px;
+       font-size: 1em;
        line-height: normal;
        display: inline-block;
        vertical-align: middle;
@@ -154,11 +155,17 @@
        opacity: 0.7;
     }
     .som {
+      background-color: hsl(98, 100%, 64%);
        text-align: center;
        cursor: pointer;
+       border-radius: 7px;
     }
     .som:hover {opacity: 0.7;}
-    
+    .semsom {
+      background-color: hsl(12, 100%, 49%);
+   }
+   .semsom:hover {opacity: 0.7;}
+
     
     .piscada {background-color: #FFBF00;} 
     .desativado {
@@ -184,23 +191,5 @@
     }
     .ativado {
        pointer-events: auto;
-    }
-    .comsom {
-       font-style: Helvetica;
-       width: 14em;
-       height: auto;
-       border: 1px solid black;
-       position: relative;
-       border-radius: 1em;
-       padding: 5px;
-    }
-    .semsom {
-       font-style: Helvetica;
-       width: 14em;
-       height: auto;
-       border: 1px solid black;
-       position: relative;
-       border-radius: 1em;
-       padding: 5px;
     }
 
