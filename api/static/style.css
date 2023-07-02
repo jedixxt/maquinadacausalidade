@@ -1,195 +1,199 @@
 @font-face {
-       font-family: Bakso Sapi;
-       src: url('BaksoSapi.otf')
-    }
-
-    h1 {
-       font-family: Bakso Sapi, Helvetica;
-    }
-    .square {
-       font-family: Bakso Sapi, Helvetica;
-       font-size: 40px;
-       height: auto;
-       width: 80%;
-       background-color: #B399D4;
-       justify-content: center;
-       top: 0px;
-       left: 10%;
-       right: 10%;
-       position: absolute;
-     }
-     .square2 {
-       font-family: Bakso Sapi, Helvetica;
-       background-color: #FBCEB1;
-       font-size: 40px;
-       height: 100%;
-       width: 100%;
-       top: 0px;
-       left: 0px;
-       background-color: #B399D4;
-       justify-content: center;
-       position: absolute;
-       z-index: 1;
-       visibility: visible;
-       
-     }
-     .square3 {
-       font-family: Bakso Sapi, Helvetica;
-       background-color: #FBCEB1;
-       font-size: 40px;
-       height: 0;
-       width: 100%;
-       top: 0px;
-       left: 0px;
-       background-color: #B399D4;
-       justify-content: center;
-       position: absolute;
-       z-index: 1;
-       visibility: hidden;
-       opacity: 0;
-       transition: heigtht 1s, linear 1s;
-     }
-    .moldura {
-       width: 14em;
-       height: auto;
-       border: 1px solid black;
-       position: relative;
-       border-radius: 1em;
-       padding: 5px;
-    }
-    .espacador {
-       width: auto;
-       height: auto;
-       top: 10%;
-       position: relative;
-       border-radius: 1em;
-       padding: 10px;
-    }
-    .espacador2 {
-       width: 100%;
-       height: auto;
-       top: 0%;
-       position: relative;
-       border-radius: 1em;
-       padding: 10px;
-    }
-    .espacador3 {
-       width: 100%;
-       height: auto;
-       top: 0%;
-       position: relative;
-       border-radius: 1em;
-       padding: 10px;
-    }
-    .espacador4 {
-       width: 100%;
-       height: auto;
-       top: 0%;
-       position: relative;
-       border-radius: 1em;
-       padding: 10px;
-    }
-    p {
-       font-size: 1.5em;
-       line-height: normal;
-       display: inline-block;
-       vertical-align: middle;
+   font-family: Bakso Sapi;
+   src: url('BaksoSapi.otf')
 }
-    p1 {
-       font-size: 30px;
-       line-height: normal;
-       display: inline-block;
-       vertical-align: middle;
-       word-break: break-word;
+body  {
+  background-image: url("bg.jpeg");
+  background-repeat: repeat;
+  background-color: #E1ECC8;
 }
-    p2 {
-       font-size: 1em;
-       line-height: normal;
-       display: inline-block;
-       vertical-align: middle;
+h1 {
+   font-family: Bakso Sapi, Helvetica;
+}
+.square {
+   font-family: Bakso Sapi, Helvetica;
+   font-size: 40px;
+   height: auto;
+   width: 80%;
+   background-color: #B399D4;
+   justify-content: center;
+   top: 0px;
+   left: 10%;
+   right: 10%;
+   position: absolute;
+ }
+ .square2 {
+   font-family: Bakso Sapi, Helvetica;
+   background-color: #FBCEB1;
+   font-size: 40px;
+   height: 100%;
+   width: 100%;
+   top: 0px;
+   left: 0px;
+   background-color: #B399D4;
+   justify-content: center;
+   position: absolute;
+   z-index: 1;
+   visibility: visible;
+   
+ }
+ .square3 {
+   font-family: Bakso Sapi, Helvetica;
+   background-color: #FBCEB1;
+   font-size: 40px;
+   height: 0;
+   width: 100%;
+   top: 0px;
+   left: 0px;
+   background-color: #B399D4;
+   justify-content: center;
+   position: absolute;
+   z-index: 1;
+   visibility: hidden;
+   opacity: 0;
+   transition: heigtht 1s, linear 1s;
+ }
+.moldura {
+   width: 14em;
+   height: auto;
+   border: 1px solid black;
+   position: relative;
+   border-radius: 1em;
+   padding: 5px;
+}
+.espacador {
+   width: auto;
+   height: auto;
+   top: 10%;
+   position: relative;
+   border-radius: 1em;
+   padding: 10px;
+}
+.espacador2 {
+   width: 100%;
+   height: auto;
+   top: 0%;
+   position: relative;
+   border-radius: 1em;
+   padding: 10px;
+}
+.espacador3 {
+   width: 100%;
+   height: auto;
+   top: 0%;
+   position: relative;
+   border-radius: 1em;
+   padding: 10px;
+}
+.espacador4 {
+   width: 100%;
+   height: auto;
+   top: 0%;
+   position: relative;
+   border-radius: 1em;
+   padding: 10px;
+}
+p {
+   font-size: 50px;
+   line-height: normal;
+   display: inline-block;
+   vertical-align: middle;
+}
+p1 {
+   font-size: 30px;
+   line-height: normal;
+   display: inline-block;
+   vertical-align: middle;
+   word-break: break-word;
+}
+p2 {
+   font-size: 40px;
+   line-height: normal;
+   display: inline-block;
+   vertical-align: middle;
 }
 
-    button {
-       font-family: Bakso Sapi;
-       background-color: #808080;
-       border: none;
-       color: white;
-       padding: 1em 1.5em;
-       text-align: center;
-       text-decoration: none;
-       display: inline-block;
-       font-size: 16px;
-       margin: 0px 0px;
-       cursor: pointer;
-       border-radius: 4px;
-    }
-    .button:hover {
-       background-color: #808080;
-    }
-    .button1 {background-color: #4CAF50;} /* Green */
-    .button1:hover {
-       background-color: #4CAF50;
-       opacity: 0.7;
-    }
-    .button2 {background-color: #008CBA;} /* Blue */
-    .button2:hover {
-       background-color: #008CBA;
-       opacity: 0.7;
-    }
-    .button3 {background-color: #f44336;} /* Red */
-    .button3:hover {
-       background-color: #f44336;
-       opacity: 0.7;
-    }
-    .button4 {background-color: #FFA500;padding: 10px 32px;margin: 10px 10px;} /* Orange */
-    .button4:hover {
-       background-color: #FFA500;
-       opacity: 0.7;
-    }
-    .button5 {
-       background-color: #FFA500;
-       padding: 1.5em 4em;
-       margin: 5px 5px;} /* Orange */
-    .button5:hover {
-       background-color: #FFA500;
-       opacity: 0.7;
-    }
-    .som {
-      background-color: hsl(98, 100%, 64%);
-       text-align: center;
-       cursor: pointer;
-       border-radius: 7px;
-    }
-    .som:hover {opacity: 0.7;}
-    .semsom {
-      background-color: hsl(12, 100%, 49%);
-   }
-   .semsom:hover {opacity: 0.7;}
+button {
+   font-family: Bakso Sapi;
+   background-color: #808080;
+   border: none;
+   color: white;
+   padding: 1em 1.5em;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 0px 0px;
+   cursor: pointer;
+   border-radius: 4px;
+}
+.button:hover {
+   background-color: #808080;
+}
+.button1 {background-color: #4CAF50;} /* Green */
+.button1:hover {
+   background-color: #4CAF50;
+   opacity: 0.7;
+}
+.button2 {background-color: #008CBA;} /* Blue */
+.button2:hover {
+   background-color: #008CBA;
+   opacity: 0.7;
+}
+.button3 {background-color: #f44336;} /* Red */
+.button3:hover {
+   background-color: #f44336;
+   opacity: 0.7;
+}
+.button4 {background-color: #FFA500;padding: 10px 32px;margin: 10px 10px;} /* Orange */
+.button4:hover {
+   background-color: #FFA500;
+   opacity: 0.7;
+}
+.button5 {
+   background-color: #FFA500;
+   padding: 1.5em 4em;
+   margin: 5px 5px;} /* Orange */
+.button5:hover {
+   background-color: #FFA500;
+   opacity: 0.7;
+}
+.som {
+  background-color: hsl(98, 100%, 64%);
+   text-align: center;
+   cursor: pointer;
+   border-radius: 7px;
+}
+.som:hover {opacity: 0.7;}
+.semsom {
+  background-color: hsl(12, 100%, 49%);
+}
+.semsom:hover {opacity: 0.7;}
 
-    
-    .piscada {background-color: #FFBF00;} 
-    .desativado {
-       pointer-events: none;
-       background-color: #808080;
-       opacity: 0.5;
-    }
-    
-    .desativado1 {
-       pointer-events: none;
-       background-color: #4CAF50;
-       opacity: 0.5;
-    }
-    .desativado2 {
-       pointer-events: none;
-       background-color: #008CBA;
-       opacity: 0.5;
-    }
-    .desativado3 {
-       pointer-events: none;
-       background-color: #f44336;
-       opacity: 0.5;
-    }
-    .ativado {
-       pointer-events: auto;
-    }
+
+.piscada {background-color: #FFBF00;} 
+.desativado {
+   pointer-events: none;
+   background-color: #808080;
+   opacity: 0.5;
+}
+
+.desativado1 {
+   pointer-events: none;
+   background-color: #4CAF50;
+   opacity: 0.5;
+}
+.desativado2 {
+   pointer-events: none;
+   background-color: #008CBA;
+   opacity: 0.5;
+}
+.desativado3 {
+   pointer-events: none;
+   background-color: #f44336;
+   opacity: 0.5;
+}
+.ativado {
+   pointer-events: auto;
+}
 
