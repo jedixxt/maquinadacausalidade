@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <link rel="stylesheet" href="static/style.css">
+<link rel="icon" type="image/x-icon" href="/static/favicon.ico">
     <title>Máquina da Causalidade</title>
 </head>
 
@@ -148,14 +149,21 @@
 <script>
 numeroA = 0
 numeroB = 0
+senha = '' 
 function desativar(id) {
+
     var snd = new Audio('static/sombotao.wav')
     if (comsom === 'True') {
     snd.play()
     setTimeout(() => {snd.currentTime = 0; snd.pause(); } , "500");
     }
+    
+    senha += id
+
     var element = document.getElementById(id);
     
+
+
     if (id[1] === 'b') {
         element.classList.toggle('desativado');
         numeroB += parseInt(id[2])
@@ -182,13 +190,19 @@ function desativar(id) {
 <script>
 ids = ['/c1','/c2','/c3','/c4','/c5','/c6','/b1','/b2','/b3','/b4','/b5','/b6','/a1','/a2','/a3',]
 function ativar() {
+    console.log(senha);
     var snd = new Audio('static/select-click.wav')
     var switchsnd = new Audio('static/switch.wav')
     
+    
     if (comsom === 'True') {
          snd.play()
-         setTimeout(() => {snd.pause();} , "200");
+         setTimeout(() => {snd.pause();} , "300");
         }
+    if (senha === '/b1/c4/a1') {
+       var ze = new Audio('static/zedamanga.mp3')
+       ze.play()
+    }
     
     n = 0
     while (n < 15){
@@ -277,8 +291,10 @@ function ativar() {
         setTimeout(() => { element.setAttribute("class", "button"); }, "1000");
         
     }
+    
     numeroA = 0;
     numeroB = 0;
+    senha = ''
 }
 </script>
 

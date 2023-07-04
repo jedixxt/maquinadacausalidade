@@ -3,8 +3,8 @@
    src: url('BaksoSapi.otf')
 }
 body  {
-  background-image: url("bg.jpeg");
-  background-repeat: repeat;
+  /* background-image: url("bg.jpeg"); 
+  background-repeat: repeat; */
   background-color: #E1ECC8;
 }
 h1 {
