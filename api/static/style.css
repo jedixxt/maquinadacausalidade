@@ -148,7 +148,10 @@ button {
    background-color: #f44336;
    opacity: 0.7;
 }
-.button4 {background-color: #FFA500;padding: 10px 32px;margin: 10px 10px;} /* Orange */
+.button4 {
+   background-color: #FFA500;
+   padding: 10px 40px;
+   margin: 10px 0px;} /* Orange */
 .button4:hover {
    background-color: #FFA500;
    opacity: 0.7;
@@ -161,17 +164,25 @@ button {
    background-color: #FFA500;
    opacity: 0.7;
 }
-.som {
-  background-color: hsl(98, 100%, 64%);
-   text-align: center;
-   cursor: pointer;
-   border-radius: 7px;
+
+.comsom {
+   background-color: #4CBB17;
+   padding: 10px 10px;
+   margin: 0px 0px;
 }
-.som:hover {opacity: 0.7;}
+
+.comsom:hover {opacity: 0.7;}
 .semsom {
-  background-color: hsl(12, 100%, 49%);
+   background-color: #FF0000;
+   padding: 10px 10px;
+   margin: 0px 0px;
 }
 .semsom:hover {opacity: 0.7;}
+som {
+   background-color: #188b1e; 
+   padding: 1.5em 4em;
+}
+.som:hover {opacity: 0.7;}
 
 
 .piscada {background-color: #FFBF00;} 
