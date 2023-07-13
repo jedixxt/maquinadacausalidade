@@ -150,7 +150,7 @@ button {
 }
 .button4 {
    background-color: #FFA500;
-   padding: 10px 40px;
+   padding: .65em 2.7em;
    margin: 10px 0px;} /* Orange */
 .button4:hover {
    background-color: #FFA500;
@@ -167,7 +167,7 @@ button {
 
 .comsom {
    background-color: #4CBB17;
-   padding: 10px 10px;
+   padding: .65em .65em;
    margin: 0px 0px;
 }
 
@@ -178,11 +178,6 @@ button {
    margin: 0px 0px;
 }
 .semsom:hover {opacity: 0.7;}
-som {
-   background-color: #188b1e; 
-   padding: 1.5em 4em;
-}
-.som:hover {opacity: 0.7;}
 
 
 .piscada {background-color: #FFBF00;} 
