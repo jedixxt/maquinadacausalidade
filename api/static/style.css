@@ -116,8 +116,6 @@ p2 {
    vertical-align: middle;
 }
 
-
-
 button {
    font-family: Bakso Sapi;
    background-color: #808080;
@@ -150,10 +148,7 @@ button {
    background-color: #f44336;
    opacity: 0.7;
 }
-.button4 {
-   background-color: #FFA500;
-   padding: .65em 2.7em;
-   margin: 10px 0px;} /* Orange */
+.button4 {background-color: #FFA500;padding: 10px 32px;margin: 10px 10px;} /* Orange */
 .button4:hover {
    background-color: #FFA500;
    opacity: 0.7;
@@ -166,22 +161,19 @@ button {
    background-color: #FFA500;
    opacity: 0.7;
 }
-.button6 {
-   background-color: #4CAF50;
-   padding: .65em .65em;
-   margin: 0px 0px;
+.som {
+  background-color: hsl(98, 100%, 64%);
+  padding: 10px 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 7px;
 }
-.button6:hover {
-   background-color: #4CAF50;
-   opacity: 0.7;
+.som:hover {opacity: 0.7;}
+.semsom {
+  background-color: hsl(12, 100%, 49%);
+  padding: 10px 10px;
 }
-.button7 {
-   background-color: #FF0000;
-   padding: .65em .65em;
-   margin: 0px 0px;
-}
-.button7:hover {opacity: 0.7;}
-
+.semsom:hover {opacity: 0.7;}
 
 
 .piscada {background-color: #FFBF00;} 
