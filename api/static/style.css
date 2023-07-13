@@ -167,8 +167,8 @@ button {
 .som {
   font-size: 10px;
   background-color: hsl(98, 100%, 64%);
-  padding: 10px 32px;
-  margin: 10px 10px;
+  padding: 10px 10px;
+  margin: 0px 0px;
   text-align: center;
   cursor: pointer;
   border-radius: 7px;
@@ -177,8 +177,8 @@ button {
 .semsom {
   font-size: 10px;
   background-color: hsl(12, 100%, 49%);
-  padding: 10px 32px;
-  margin: 10px 10px;
+  padding: 10px 10px;
+  margin: 0px 0px;
 }
 .semsom:hover {opacity: 0.7;}
 
