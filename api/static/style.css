@@ -116,28 +116,7 @@ p2 {
    vertical-align: middle;
 }
 
-comsom {
-   background-color: #4CBB17;
-   border: none;
-   padding: .65em .65em;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   margin: 0px 0px;
-   cursor: pointer;
-   border-radius: 4px;
-   padding: .65em .65em;
-   margin: 0px 0px;
-}
 
-.comsom:hover {opacity: 0.7;}
-.semsom {
-   background-color: #FF0000;
-   padding: .65em .65em;
-   margin: 0px 0px;
-}
-.semsom:hover {opacity: 0.7;}
 
 button {
    font-family: Bakso Sapi;
@@ -187,7 +166,28 @@ button {
    background-color: #FFA500;
    opacity: 0.7;
 }
+.comsom {
+   background-color: #4CBB17;
+   border: none;
+   padding: .65em .65em;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 0px 0px;
+   cursor: pointer;
+   border-radius: 4px;
+   padding: .65em .65em;
+   margin: 0px 0px;
+}
 
+.comsom:hover {opacity: 0.7;}
+.semsom {
+   background-color: #FF0000;
+   padding: .65em .65em;
+   margin: 0px 0px;
+}
+.semsom:hover {opacity: 0.7;}
 
 
 
