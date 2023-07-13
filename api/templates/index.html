@@ -8,23 +8,6 @@
     <title>Máquina da Causalidade</title>
 </head>
 
-<script>
-  comsom = 'True'
-</script>
-<script>
-  nome = '&#128266;'
-  function som(id) {    
-    var element = document.getElementById(id);
-      if (comsom === 'False') {
-          comsom = 'True'; 
-          element.setAttribute("class", "comsom");
-        }
-      else {
-          comsom = 'False';
-          element.setAttribute("class", "semsom");
-        }
-  }
-</script>
 <div class='square2' id='molduraId'> 
 <center>
 
@@ -134,9 +117,26 @@
 </div>
         <button class= "button4" onclick = "ativar()" id = '/enviar'>    Enviar    </button>
         <p></p>
-        <button class= "comsom" onclick = "som(id)" id = 'som'>&#127925;</button>
+        <button class= "button6" onclick = "som(id)" id = 'som'>&#127925;</button>
       </center>
 </body>   
+
+<script>
+  comsom = 'True'
+</script>
+<script>
+  function som(id) {    
+    var element = document.getElementById(id);
+      if (comsom === 'False') {
+          comsom = 'True'; 
+          element.setAttribute("class", "button6");
+        }
+      else {
+          comsom = 'False';
+          element.setAttribute("class", "button7");
+        }
+  }
+</script>
 
 <script>
 numeroA = 0
