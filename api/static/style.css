@@ -165,6 +165,7 @@ button {
    opacity: 0.7;
 }
 .som {
+  font-size: 10px;
   background-color: hsl(98, 100%, 64%);
   padding: 10px 32px;
   margin: 10px 10px;
@@ -174,6 +175,7 @@ button {
 }
 .som:hover {opacity: 0.7;}
 .semsom {
+  font-size: 10px;
   background-color: hsl(12, 100%, 49%);
   padding: 10px 32px;
   margin: 10px 10px;
