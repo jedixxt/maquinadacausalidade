@@ -116,9 +116,9 @@ p2 {
    vertical-align: middle;
 }
 botaosom {
-
-   
-}
+   height: auto;
+   width: auto;
+ }
 button {
    font-family: Bakso Sapi;
    background-color: #808080;
@@ -166,7 +166,7 @@ button {
 }
 .som {
   background-color: hsl(98, 100%, 64%);
-  padding: 10px 10px;
+  padding: 5px 5px;
   text-align: center;
   cursor: pointer;
   border-radius: 7px;
@@ -174,7 +174,7 @@ button {
 .som:hover {opacity: 0.7;}
 .semsom {
   background-color: hsl(12, 100%, 49%);
-  padding: 10px 10px;
+  padding: 5px 5px;
 }
 .semsom:hover {opacity: 0.7;}
 
